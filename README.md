@@ -1,34 +1,45 @@
-# Disaster_Tweet_Analysis_EDA-Cleaning-BERT
+# 🌪️ Disaster Tweet Analysis: EDA, Cleaning & BERT
 
-## Table of Contents
-- [Project Description](#project-description)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Credits](#credits)
-- [License](#license)
-- [Screenshots & Links](#screenshots--links)
+A Natural Language Processing (NLP) project that classifies tweets as **disaster-related** or **not** using **exploratory data analysis**, **text preprocessing**, and a fine-tuned **BERT model**.
 
 ---
 
-## Project Description
+## 📑 Table of Contents
 
-This project analyzes disaster-related tweets using exploratory data analysis (EDA), data cleaning, and a BERT-based classification model. The primary goal is to distinguish between tweets that refer to real disasters and those that do not, aiding in rapid disaster response and information filtering.
-
----
-
-## Key Features
-
-- Comprehensive EDA on disaster tweet datasets
-- Data cleaning and preprocessing pipelines
-- Implementation of a BERT-based classifier for disaster tweet detection
-- Evaluation metrics (accuracy, F1, confusion matrix)
-- Visualizations for data insights and model performance
+- [📌 Project Description](#-project-description)
+- [✨ Key Features](#-key-features)
+- [⚙️ Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [📁 Project Structure](#-project-structure)
+- [🙌 Credits](#-credits)
+- [🪪 License](#-license)
+- [📸 Screenshots & Links](#-screenshots--links)
 
 ---
 
-## Installation
+## 📌 Project Description
+
+This project analyzes tweets related to disasters using a full NLP pipeline — starting from **EDA** and **data cleaning** to training a **BERT-based classification model**. The objective is to **identify real disaster tweets** to aid in **faster emergency response** and **automated filtering** of social media content.
+
+---
+
+## ✨ Key Features
+
+- 🔍 Interactive EDA on tweet metadata
+- 🧹 Data cleaning & preprocessing pipeline
+- 🤖 BERT-based binary classifier (Hugging Face Transformers)
+- 📊 Evaluation using accuracy, F1-score, confusion matrix
+- 📈 Visual insights on data and model performance
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/n1yxz/Disaster_Tweet_Analysis_EDA-Cleaning-BERT.git
+   cd Disaster_Tweet_Analysis_EDA-Cleaning-BERT
+
 
 1. **Clone the repository:**
    ```bash
@@ -51,7 +62,7 @@ This project analyzes disaster-related tweets using exploratory data analysis (E
 
 ---
 
-## Usage
+## 🚀 Usage
 
 - Open the Jupyter notebooks (`.ipynb`) in the repository.
 - Follow the notebook cells step by step:
@@ -67,7 +78,7 @@ jupyter notebook Disaster_Tweet_Analysis_EDA_Cleaning_BERT.ipynb
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Disaster_Tweet_Analysis_EDA-Cleaning-BERT/
@@ -81,7 +92,7 @@ Disaster_Tweet_Analysis_EDA-Cleaning-BERT/
 
 ---
 
-## Credits
+## 🙌 Credits
 
 - **Contributors:** [n1yxz](https://github.com/n1yxz)
 - **Datasets:** [Kaggle Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started/data)
@@ -89,13 +100,13 @@ Disaster_Tweet_Analysis_EDA-Cleaning-BERT/
 
 ---
 
-## License
+## 🪪 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Screenshots & Links
+## 📸 Screenshots & Links
 
 ![EDA Example](docs/eda_example.png)
 ![BERT Classification Report](docs/classification_report.png)
@@ -104,5 +115,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Kaggle Competition](https://www.kaggle.com/c/nlp-getting-started)
 
 ---
-
-> _Replace any placeholder text or images with your actual project content for a personalized README!_
