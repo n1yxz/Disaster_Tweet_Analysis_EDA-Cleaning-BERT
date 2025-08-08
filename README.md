@@ -82,7 +82,7 @@ jupyter notebook Disaster_Tweet_Analysis_EDA_Cleaning_BERT.ipynb
 
 ```
 Disaster_Tweet_Analysis_EDA-Cleaning-BERT/
-├── data/                # Dataset files (not included in repo)
+├── data/                # Dataset files (Data folder are given as files. Test.csv, Train.csv)
 ├── notebooks/           # Main Jupyter notebooks
 ├── src/                 # Source code and scripts
 ├── outputs/             # Model outputs, predictions
